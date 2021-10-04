@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VI Editor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class = "header">VI Editor
+        <div class = "subheader">With Examples</div>
+    <div>
+    
+    <div class = "introduction"><p> VI is the oldest of all text editors. It is integrated with amy linux system and is very dependable. Below are some commands and their examples.</p></div>
+    <ol>
+        <li>i(Insert Mode)</li>
+        <div class = "description"><p> While in the initial/command mode of VI, typing the "i" character will enable insert mode so you can start writing on the file.</p>
+            <img src = "./images/vi_i.png">
+            <p>Notice that it says "INSERT" on the bottom. Hitting the escape key will take one back to command line.</p>
+        </div>
+        <li>p(Paste)</li>
+        <div class = "description"><p> In the command mode, hitting "p" will paste what is in your clipboard after the cursor.</p>
+            <img src = "./images/vi_p.png">
+            
+        </div>
+        <li>:</li>
+        <div class = "description"><p> In command mode, ":" will enable you to use commands which shows at the bottom of the screen.</p>
+            <img src = "./images/vi_colon.png">
+        </div>
+        <li>:w(Write to file)</li>
+        <div class = "description"><p> This command saves your changes in the file.</p>
+            <img src = "./images/vi_w.png">
+            <p>Notice it says ....written after we hit the return key.</p>
+        </div>
+        <li>:q(Quit)</li>
+        <div class = "description"><p> This command quits the file. It closes the file without changes and returns to the command line. If :wq is passed instead, it will save and quit.</p>
+            <img src = "./images/vi_q.png">
+            
+        </div>
+        <li>:&#60;linenumber&#62;</li>
+        <div class = "description"><p> This command allows you to jump to any line on the file after the cursor.</p>
+            <img src = "./images/vi_linenumber.png">
+        </div>
+        <li>:/&#60;string&#62;</li>
+        <div class = "description">
+            <p> This searches for the string provided in the file and takes the cursor to the line the string is in.</p>
+        </div>
+
+        
+</body>
+</html>
