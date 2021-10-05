@@ -29,9 +29,9 @@
 }
 #navimenu {
     list-style-type: none;
-    background-color: #333;
-    margin: 0;
-    padding: 0;
+    
+    margin-bottom: 1em;
+    padding-bottom: 1em;
     align-content: center;
     
 }
@@ -47,4 +47,33 @@
     padding-left: 3em;
     padding-right: 1.5em;
     color: black;
+}
+
+
+
+/*css for the body part*/
+#content {
+    display: block;
+    padding: 3em;
+    background-color: rgb(32, 30, 30);
+    color: white;
+}
+
+.header {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.introduction {
+    padding-top: 2em;
+    
+}
+
+ol li {
+    font-weight: bold;
+    font-size: large;
+    
+}
+.description {
+    padding-bottom: 1em;
 }
