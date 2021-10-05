@@ -1,0 +1,50 @@
+
+#header {
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    
+    border-bottom: 0;
+}
+#header h1 {
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+    background-image: url("../images/Background.jpg");
+    
+    
+}
+#header a {
+    text-decoration: none;
+    color: white;    
+}
+
+#navi {
+    
+    border-top: 0;
+    padding-top: 0.5em;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+#navimenu {
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    
+}
+
+#navimenu li {
+    float: left;
+    align-content: center;
+}
+#navimenu li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 3em;
+    padding-right: 1.5em;
+    color: black;
+}
