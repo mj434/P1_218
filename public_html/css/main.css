@@ -22,7 +22,6 @@
     
     border-top: 0;
     padding-top: 0.5em;
-    justify-items: center;
     align-content: center;
     text-align: center;
     
@@ -45,7 +44,7 @@
     text-align: center;
     text-decoration: none;
     padding-left: 3em;
-    padding-right: 1.5em;
+    padding-right: 3em;
     color: black;
 }
 
@@ -62,6 +61,11 @@
 .header {
     font-size: 2em;
     font-weight: bolder;
+}
+
+.subheader {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .introduction {

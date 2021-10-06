@@ -23,7 +23,43 @@
     </div>
 
     <div id="content">
-        <h2>This is project 1 made my Mohit Joshi and Omar Elserty.  with us as the contributors, we divided our tasks into issues then we assigned those issues to our selves. We then It consists of different HTML files that consists of different commands of what we have used such as apache, docker, linux, git, and vi. We then have created a separate branch for each upload which later on merged onto the main branch through pull requests.</h2>   
+        <div class = "subheader">
+            This is a website for project 1 made my Mohit Joshi and Omar Elserty.<br>
+            Below is the step by step walkthrough of how the project was accomplished:
+    
+        </div>
+        <ol>
+            <li>Create an empty repository on GitHub with appropriate contributors.</li>
+            <div class="description">First, as we need a apace where all members of the team can contribute remotely, we set up a GitHub repository and add required contributors.<br>
+            Then, we clone the repository into our own machines so we can start working.</div>
+            <li>Build the actual webpages.</li>
+            <div class="description">We then proceed to build the webpages as assigned under GitHub issues. </div>
+            <li>Push your work onto GitHub.</li>
+            <div class="description">We push our work onto GitHub using branches that merge into our main code using pull requests.<br>
+            As we merge pull requests, we link our issues with them so that they automatically close.</div>
+            <li>Create a Docker Container</li>
+            <div class="description">Using Dockerfile and docker-compose.yml files, we create a docer container to host our sites on our local machine.</div>
+            <li>Push the container image to DockerHub Repository.</li>
+            <div class="description">
+                <ul>
+                    <li>Build the container image.</li>
+                    <li>Tag your existing local image to the image on DockerHub.</li>
+                    <li>Commit your changes.</li>
+                    <li>push your image to the repository.</li>
+                </ul>
+            </div>
+            <li>Log into azure through command line and create an aci context.</li>
+            <div class = "description">
+                Use "docker login azure" to log in to azure.<br>
+                Use "docker context create aci [name]" to create an aci context.<br>
+                Switch to your aci context using "docker context use [name]".<br>
+
+            </div>
+            <li>Deploy your container on Microsoft Azure.</li>
+            <div class="description">
+                Use the command in slack "docker run --domainname project -dp 80:80 mj434/p1_218" to deploy the container on azure.         </div>
+
+        </ol>
     </div>
 
 </body>
