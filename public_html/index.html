@@ -19,36 +19,32 @@
             <li><a href="viCommands.html">VI Editor</a></li>
             <li><a href = "dockerCommands.html">Docker</a></li>
             <li><a href = "apacheCommands.html">Apache</a></li>
+            <li><a href = "pylintTutorial.html">Pylint</a></li>
+            <li><a href = "OOPGlossary.html">OOP Glossary</a></li>
+            <li><a href = "AAATesting.html">AAA Testing</a></li>
+            <li><a href = "OOPPrinciples.html">OOP Principles</a></li>
+            <li><a href = "concernSeparation.html">Separation Of Concerns</a></li>
         </ul>
     </div>
 
     <div id="content">
         <div class = "subheader">
-            This is a website for project 1 made my Mohit Joshi and Omar Elserty.<br>
-            Below is the step by step walkthrough of how the project was accomplished:
+            This is the updated website for project 2 built upon on the original for project 1.<br>
+            Below is the step by step walkthrough of how project 2 was accomplished:
     
         </div>
         <ol>
-            <li>Create an empty repository on GitHub with appropriate contributors.</li>
-            <div class="description">First, as we need a apace where all members of the team can contribute remotely, we set up a GitHub repository and add required contributors.<br>
-            Then, we clone the repository into our own machines so we can start working.</div>
-            <li>Build the actual webpages.</li>
-            <div class="description">We then proceed to build the webpages as assigned under GitHub issues. </div>
-            <li>Push your work onto GitHub.</li>
-            <div class="description">We push our work onto GitHub using branches that merge into our main code using pull requests.<br>
-            As we merge pull requests, we link our issues with them so that they automatically close.</div>
-            <li>Create a Docker Container</li>
-            <div class="description">Using Dockerfile and docker-compose.yml files, we create a docer container to host our sites on our local machine.</div>
-            <li>Push the container image to DockerHub Repository.</li>
-            <div class="description">
-                <ul>
-                    <li>Build the container image.</li>
-                    <li>Tag your existing local image to the image on DockerHub.</li>
-                    <li>Commit your changes.</li>
-                    <li>push your image to the repository.</li>
-                </ul>
-            </div>
-            <li>Log into azure through command line and create an aci context.</li>
+            <li>Create a calculator program following professor's notes.</li>
+            <div class="description">First, I worked with the professor's code to build a calculator program with addition, subtraction, multiplication, and division capabilities.</div>
+            <li>Create test cases for all functions present in the program.</li>
+            <div class="description">Using the professor's templates and naming structure, I made test cases using tuples for all my functions. </div>
+            <li>Use the interpreter from the docker container for ypur project.</li>
+            <div class="description">Configure the interpreter from the docker container to interpret your code.</div>
+            <li>Lint your program as per global standards using pylint.</li>
+            <div class="description">Use pylint to lint your code (clean up your code).</div>            
+            <li>Earn a travis badge for your code and put the badge unto your readme file</li>
+            
+            <li>Add tutorials and links to your existing website and use the same steps as project 1 to host the updated website.</li>
             <div class = "description">
                 Use "docker login azure" to log in to azure.<br>
                 Use "docker context create aci [name]" to create an aci context.<br>

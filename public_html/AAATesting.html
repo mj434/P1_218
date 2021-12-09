@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AAA Testing</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div id="header">
+        <a href="index.html"><h1>IS218 Project</h1></a>
+    </div>
+    <div id="navi">
+        <ul id="navimenu">
+            <li><a href="gitCommands.html">Git</a></li>
+            <li><a href="linuxCommands.html">Linux</a></li>
+            <li><a href="viCommands.html">VI Editor</a></li>
+            <li><a href = "dockerCommands.html">Docker</a></li>
+            <li><a href = "apacheCommands.html">Apache</a></li>
+            <li><a href = "pylintTutorial.html">Pylint</a></li>
+            <li><a href = "OOPGlossary.html">OOP Glossary</a></li>
+            <li><a href = "AAATesting.html">AAA Testing</a></li>
+            <li><a href = "OOPPrinciples.html">OOP Principles</a></li>
+            <li><a href = "concernSeparation.html">Separation Of Concerns</a></li>
+        </ul>
+    </div>
+    <div id="content">
+    <div class = "header">AAA Testing
+        
+    </div>
+    
+    <div class = "introduction"><p> Testing provides an empirical feedback loop for development. That’s how testing keeps us safe. With tests, we know when things break. Without tests, coding can be dangerous. So, how can we write good tests? There’s a simple but powerful pattern: Arrange-Act-Assert.
+    </p></div>
+    <ol>
+        <li>ARRANGE inputs and targets.</li>
+        <div class = "description"><p>Arrange step should set up the test case. Does the test require any objects or special settings? Does it need to prep a database? Does it need to log into a web app? Handle all of these operations at the start of the test.</p>
+            
+        </div>
+        <li>ACT on the target behavior</li>
+        <div class = "description"><p> Act steps should cover the main thing to be tested. This could be calling a function or method, calling a REST API, or interacting with a web page. Keep actions focused on the target behavior.</p>
+            
+        </div>
+        <li>ASSERT expected outcomes</li>
+        <div class = "description"><p> Act steps should elicit some sort of response. Assert steps verify the goodness or badness of that response. Sometimes, assertions are as simple as checking numeric or string values.</p>
+
+            
+        </div>
+        <li>Example</li>
+        <div class = "description"><p> The following is an example of a test fie that follows the AAA pattern.</p>
+            <img src = "./images/aaa.png">
+        </div>
+        <li>mynumbers = (1.0,2.0) [ARRANGE]</li>
+        <div class = "description"><p>This line is the arrange block of the code that sets up the conditions for the test action.</p>
+        
+        </div>
+        <li>addition = Addition(mynumbers) [ACT]</li>
+        <div class = "description"><p>The line of code where the Action is taken on the System Under Test (SUT).</p>
+                    
+        </div>
+
+        <li>assert addition.get_result() == 3.0 [ASSERT]</li>
+        <div class = "description"><p>The block of code that performs the assertions on the state of the SUT after the action.</p>
+            
+        </div>
+
+    </ol>
+    </div>        
+        
+     
+
+        
+</body>
+</html>

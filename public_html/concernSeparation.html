@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Concern Separation</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div id="header">
+        <a href="index.html"><h1>IS218 Project</h1></a>
+    </div>
+    <div id="navi">
+        <ul id="navimenu">
+            <li><a href="gitCommands.html">Git</a></li>
+            <li><a href="linuxCommands.html">Linux</a></li>
+            <li><a href="viCommands.html">VI Editor</a></li>
+            <li><a href = "dockerCommands.html">Docker</a></li>
+            <li><a href = "apacheCommands.html">Apache</a></li>
+            <li><a href = "pylintTutorial.html">Pylint</a></li>
+            <li><a href = "OOPGlossary.html">OOP Glossary</a></li>
+            <li><a href = "AAATesting.html">AAA Testing</a></li>
+            <li><a href = "OOPPrinciples.html">OOP Principles</a></li>
+            <li><a href = "concernSeparation.html">Separation Of Concerns</a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+    <div class = "header">Separation of Concerns
+        <div class = "subheader">How the calculator program follows this principle.</div>
+    </div>
+    
+    <div class = "introduction"><p> Separation of concerns is a software architecture design pattern/principle for separating an application into distinct sections, so each section addresses a separate concern.</p></div>
+    <ol>
+        <li>Separating program into classes</li>
+        <div class = "description"><p> The entire program is separated into different classes that achieve their own separate goals. For instance, the addition class adds the numbers in a list to give out the values.</p>
+        </div>
+        <li>Separating tasks into methods</li>
+        <div class = "description"><p> Each task in a class is separated into different methods that achieve the task. For a class like history.calculations, the methods for adding to histry, clearing history, or reading from history are all different and systematically arranged.</p>
+        </div>
+        <li>Using one method for one task</li>
+        <div class = "description"><p> Since Separation of Concerns is all about maintaining order, this helps us reduce redundancy and create definite method names that make sense as to the task they accomplish.</p>
+        </div>
+        
+    </ol>
+    </div>    
+</body>
+</html>

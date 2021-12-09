@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PyLint Tutorial</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div id="header">
+        <a href="index.html"><h1>IS218 Project</h1></a>
+    </div>
+    <div id="navi">
+        <ul id="navimenu">
+            <li><a href="gitCommands.html">Git</a></li>
+            <li><a href="linuxCommands.html">Linux</a></li>
+            <li><a href="viCommands.html">VI Editor</a></li>
+            <li><a href = "dockerCommands.html">Docker</a></li>
+            <li><a href = "apacheCommands.html">Apache</a></li>
+            <li><a href = "pylintTutorial.html">Pylint</a></li>
+            <li><a href = "OOPGlossary.html">OOP Glossary</a></li>
+            <li><a href = "AAATesting.html">AAA Testing</a></li>
+            <li><a href = "OOPPrinciples.html">OOP Principles</a></li>
+            <li><a href = "concernSeparation.html">Separation Of Concerns</a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+    <div class = "header">PyLint Tutorial
+        <div class = "subheader">Beginner tips and tricks</div>
+    </div>
+    
+    <div class = "introduction"><p>Pylint is a static code analysis tool to find coding errors in your Python code. It can help you single out bugs and can make your code easy to read and edit.</p></div>
+    <ol>
+        <li>Installing Pylint</li>
+        <div class = "description"><p> The following is the code to install pylint on Windows, Mac, or Linux</p>
+            <img src = "./images/pylintInstall.png">
+        </div>
+        <li>Using pylint on a python program</li>
+        <div class = "description"><p> The code to use pylint in a program is pretty much like running a python code.</p>
+            <img src = "./images/pylintRun.png">
+            
+        </div>
+        <li>missing-docstring</li>
+        <div class = "description"><p> The most common error for a newbie programmer in pylint. It just means that you are missing descrition for the code that follows.</p>
+            <img src = "./images/pylintMissDoc.png">
+            <p>Using something like ("""My program""") at the position of the error will solve this.</p>
+        </div>
+        <li>More hints on pylint.</li>
+        <div class = "description"><p> This snippet hepls identify the kind of problem pylint picks up from your code.</p>
+            <img src = "./images/pylintHint.png">
+        </div>
+        
+    </ol>
+    </div>    
+</body>
+</html>

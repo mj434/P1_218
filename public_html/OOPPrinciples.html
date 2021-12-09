@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OOP Principles</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div id="header">
+        <a href="index.html"><h1>IS218 Project</h1></a>
+    </div>
+    <div id="navi">
+        <ul id="navimenu">
+            <li><a href="gitCommands.html">Git</a></li>
+            <li><a href="linuxCommands.html">Linux</a></li>
+            <li><a href="viCommands.html">VI Editor</a></li>
+            <li><a href = "dockerCommands.html">Docker</a></li>
+            <li><a href = "apacheCommands.html">Apache</a></li>
+            <li><a href = "pylintTutorial.html">Pylint</a></li>
+            <li><a href = "OOPGlossary.html">OOP Glossary</a></li>
+            <li><a href = "AAATesting.html">AAA Testing</a></li>
+            <li><a href = "OOPPrinciples.html">OOP Principles</a></li>
+            <li><a href = "concernSeparation.html">Separation Of Concerns</a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+    <div class = "header">OOP Principles
+        <div class = "subheader">With Examples from the Calculator Program</div>
+    </div>
+    
+    <div class = "introduction"><p> The fundamental principles of Object Oriented Programming are Encapsulation, Inheritance, Polymorphism, and Abstraction.</p></div>
+    <ol>
+        <li>Encapsulation</li>
+        <div class = "description"><p> Encapsulation describes the idea of wrapping data and the methods that work on data within one unit. This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data. To prevent accidental change, an object’s variable can only be changed by an object’s method. Those types of variables are known as private variable. </p>
+            <p>A class is an example of encapsulation as it encapsulates all the data that is member functions, variables, etc.</p>
+            <img src = "./images/divclass.png">
+            <p>Note: the use of "self" here is also an example of encapsulation that restricts outer programs to access the value stored in the self.</p>
+        </div>
+        <li>Inheritance</li>
+        <div class = "description"><p> Inheritance is the capability of one class to derive or inherit the properties from another class. Basically, importing from a different class and using its methods is an example of inheritance.</p>
+            <img src = "./images/inheritance.png">
+            <p>Here, methods from the calculations class are being implemented in the calculator class.</p>
+        </div>
+        <li>Polymorphism</li>
+        <div class = "description"><p> In programming, polymorphism means the same function name (but different signatures) being used for different types. It basically means that the function needs to be able to adapt to different forms of data.</p>
+            <img src = "./images/polymorph.png">
+            <p>Here, if calculations.history is an empty list, it returns 0 while for calculatios that actually have a history, it returns the final value in the list.</p>
+        </div>
+        <li>Abstraction</li>
+        <div class = "description"><p> An abstract class can be considered as a blueprint for other classes. It allows you to create a set of methods that must be created within any child classes built from the abstract class.</p>
+            <img src = "./images/abstract.png">
+        </div>
+        
+    </ol>
+    </div>    
+</body>
+</html>
